@@ -1,0 +1,128 @@
+@CHARSET "UTF-8";
+
+.muesli {
+	text-align:left;
+	padding : 10px;
+   margin : 0px 10px 10px 10px;
+	border-color : grey;
+	border-style : solid;
+	border-width : medium;
+	/*background-color: yellow;*/
+	border-radius : 10px;
+	/*width : 70%;*/
+	position: absolute;
+	left : 10px;
+	width : 150px;
+	height : 205px;
+}
+
+.config {
+	position:absolute;
+	left:200px;
+}
+
+.area_muesli {
+	text-align:left;
+	padding : 10px;
+   margin : 10px 10px 10px 200px;
+	border-color : grey;
+	border-style : solid;
+	border-width : medium;
+	/*background-color: yellow;*/
+	/*position: absolute;
+	left:200px;*/
+	border-radius : 10px;
+	width : 55%;
+}
+
+.area_muesli:before,
+.area_muesli:after {
+content: " ";
+display: table;
+}
+.area_muesli:after {
+clear: both;
+}
+.area_muesli {
+*zoom: 1;
+}
+
+.area {
+	text-align:left;
+	padding : 10px;
+   margin : 10px;
+	border-color : grey;
+	border-style : solid;
+	border-width : medium;
+	/*background-color: yellow;*/
+	border-radius : 10px;
+	width : 70%;
+}
+
+.area:before,
+.area:after {
+content: " ";
+display: table;
+}
+.area:after {
+clear: both;
+}
+.area {
+*zoom: 1;
+}
+
+#currentConfig{
+	text-align:left;
+   padding : 10px;
+   margin : 0px;
+   border-color : grey;
+   border-style : solid;
+   border-width : medium;
+   /*background-color: yellow;*/
+   border-radius : 10px;
+   position: absolute;
+   /*top: 150px;*/
+   left: 73%;
+   height: 80%;
+   width : 20%;
+}
+
+div.class {
+   /*box-sizing : border-box;*/
+   text-align:center;
+   padding : 2px;
+   margin : 2px;
+   border-color : braun;
+   border-style : solid;
+   border-width : medium;
+   border-radius : 5px;
+   float : left;
+   /*background-color: grey;*/
+   min-width : 60px;
+}
+
+.component {
+   /*box-sizing : border-box;*/
+   text-align:center;
+   padding : 2px;
+   margin : 2px;
+   border-color : #282828 ;
+   border-style : solid;
+   border-width : medium;
+   border-radius : 5px;
+   float : left;
+   /*background-color: grey;*/
+   min-width : 60px;
+}
+
+div.container {
+    width: 30em;
+    border: 1em solid;
+}
+
+div.box {
+    box-sizing: border-box;
+    width: 50%;
+    border: 1em solid red;
+    float: left;
+}
